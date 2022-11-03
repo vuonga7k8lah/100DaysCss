@@ -1,0 +1,23 @@
+html {
+  font-size: 10px;
+}
+
+h2 {
+  color: red;
+  background: yellow;
+}
+
+.header-top-text {
+  color: red;
+}
+.header-top-text:hover {
+  color: orange;
+}
+
+.box {
+  background-color: red;
+  width: 100 px;
+  height: 100 px;
+}
+
+/*# sourceMappingURL=style.css.map */

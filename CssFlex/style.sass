@@ -1,0 +1,19 @@
+html
+    font-size: 10px
+$color: red  
+h2
+    color: $color
+    background: yellow 
+.header
+    &-top 
+        &-text 
+            color: $color
+            &:hover
+                color: orange
+@mixin size($width, $height:$width)
+    width: $width
+    height: $height
+.box
+    background-color: red
+    @include size(100 px)
+            

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+}
+.header {
+    width: 500px;
+    border: solid 1px black;
+    background-color: aqua;
+}
+.content {
+    border: solid 1px black;
+    background-color: red;
+}
+.nav {
+    border: solid 1px black;
+    background-color: darkorange;
+}
+
+.item {
+    border: solid 1px black;
+    background-color: bisque;
+}
+
+.footer {
+    border: solid 1px black;
+    background-color: blueviolet;
+}
